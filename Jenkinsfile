@@ -2,7 +2,7 @@ node{
   
   stage('SCM Checkout){
         
-        git 'git@github.com:ofentseKhampe/CI-CD-Deployment-for-Springboot-Application..git'
+        git 'https://github.com/ofentseKhampe/CI-CD-Deployment-for-Springboot-Application./blob/master/Jenkinsfile'
         }
         stage('complie-package){
               sh'mvn package'
